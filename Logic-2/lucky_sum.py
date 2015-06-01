@@ -10,11 +10,11 @@ Given 3 int values, a b c, return their sum.
 def lucky_sum(a, b, c):
   if a == 13 and b == 13:
     return 0
-  if a == 13:
+  elif a == 13:
     return 0
-  if b == 13:
+  elif b == 13:
     return a
-  if c == 13:
+  elif c == 13:
     return a + b
   else:
     return a + b + c
