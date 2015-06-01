@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 '''
 We want to make a row of bricks that is goal inches long. We have a number of small bricks
 (1 inch each) and big bricks (5 inches each).
@@ -18,7 +17,7 @@ def make_bricks(small, big, goal):
     return False
 
 
-
+#test cases
 print make_bricks(3, 1, 8)
 print make_bricks(5, 2, 17)
 print make_bricks(3, 3, 18)
