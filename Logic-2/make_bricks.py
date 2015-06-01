@@ -11,7 +11,6 @@ This is a little harder than it looks and can be done without any loops.
 def make_bricks(small, big, goal):
     for five in range(0, (big * 5) + 1, 5):
         for one in range(small + 1):
-            print five,one, five+one, goal
             if five + one == goal:
                 return True
                 break
