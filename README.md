@@ -13,8 +13,8 @@ List-1: COMPLETE
 
 Logic-1: COMPLETE
 
-Logic-2: In Progress
+Logic-2: COMPLETE
 
-String-2:
+String-2: COMPLETE
 
-List-2:
+List-2: IN PROGRESS
