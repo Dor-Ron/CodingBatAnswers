@@ -22,3 +22,13 @@ print make_bricks(3, 1, 8)
 print make_bricks(5, 2, 17)
 print make_bricks(3, 3, 18)
 print make_bricks(3, 5, 110)
+
+#Alternative solution that works online, took me a while to get
+
+def make_bricks(small, big, goal):
+    if goal >  big * 5 + small: 
+        return False
+    elif goal % 5 > small:
+        return False
+    else:
+        return True
