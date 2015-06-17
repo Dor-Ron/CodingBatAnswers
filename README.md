@@ -17,4 +17,7 @@ Logic-2: COMPLETE
 
 String-2: COMPLETE
 
-List-2: IN PROGRESS
+List-2: COMPLETE
+
+Optional,
+Revise the code to make one-liner solutions
