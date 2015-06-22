@@ -4,7 +4,7 @@
 #Unless it is the weekend, in which case there is no upper bound on the number of cigars. 
 #Return True if the party with the given values is successful, or False otherwise. 
 
-
+#original solution
 def cigar_party(cigars, is_weekend):
   if is_weekend and cigars >= 40:
     return True
@@ -12,3 +12,7 @@ def cigar_party(cigars, is_weekend):
     return True
   else:
     return False
+
+#one-liner
+def cigar_party(cigars, is_weekend):
+  return (is_weekend and cigars >= 40) or (not is_weekend and (cigars >= 40 and cigars <= 60))
