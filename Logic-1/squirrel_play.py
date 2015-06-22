@@ -4,7 +4,7 @@
 #Unless it is summer, then the upper limit is 100 instead of 90. 
 #Given an int temperature and a boolean is_summer, return True if the squirrels play and False otherwise. 
 
-
+#original solution
 def squirrel_play(temp, is_summer):
   if is_summer and temp in range(60, 101):
     return True
@@ -12,3 +12,7 @@ def squirrel_play(temp, is_summer):
     return True
   else:
     return False
+
+#one-liner
+def squirrel_play(temp, is_summer):
+  return is_summer and temp in range(60, 101) or not is_summer and temp in range(60, 91)
