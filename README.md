@@ -7,11 +7,11 @@ Warmup-1: COMPLETE | all are now one line!
 
 Warmup-2: COMPLETE
 
-String-1: COMPLETE
+String-1: COMPLETE | all are now one line!
 
-List-1: COMPLETE
+List-1: COMPLETE | all are now one line!
 
-Logic-1: COMPLETE
+Logic-1: COMPLETE | all are now one line!
 
 Logic-2: COMPLETE
 
