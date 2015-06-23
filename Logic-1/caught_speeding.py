@@ -5,7 +5,7 @@
 #If speed is 81 or more, the result is 2.
 #Unless it is your birthday -- on that day, your speed can be 5 higher in all cases. 
 
-
+#original solution
 def caught_speeding(speed, is_birthday):
   if is_birthday:
     if speed <= 65:
@@ -22,4 +22,6 @@ def caught_speeding(speed, is_birthday):
     else:
       return 2
       
-#could've been abbreviated with 2 conditions per line for each situaton eg) if is_birthday and speed in range(66, 86): 
+#one-liner
+def caught_speeding(speed, is_birthday):
+  return 0 if is_birthday and speed <= 65 or not is_birthday and speed <= 60 else 1 if is_birthday and speed in xrange(66, 86) or not is_birthday and speed in xrange(61, 81) else 2 
