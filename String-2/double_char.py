@@ -11,3 +11,8 @@ def double_char(str):
   for char in str:
     string += char * 2
   return string
+  
+  
+#one-liner
+def double_char(str):
+  return "".join([char * 2 for char in str])
